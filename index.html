@@ -36,7 +36,8 @@
       var myLatlng = new google.maps.LatLng(49.182509,16.62697);
       var mapOptions = {
       zoom: 15,
-      center: myLatlng
+      center: myLatlng,
+      scrollwheel: false
       }
       var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
@@ -123,19 +124,19 @@
     <section class="white">
 		<div class="row" style="font-size:20px; color: #00b000; padding-bottom: 30px;">
 	
-			<div class="col-sm-1"></div>
-			<div class="col-sm-5"><b>Pro hosty</b><br /><br />
+			<!--<div class="col-sm-1"></div>-->
+			<div class="col-sm-4 col-xs-offset-1"><b>Pro hosty</b><br /><br />
 			Přímá linka MHD do Industry<br />
 			Cool festivalové noviny a placka na památku<br />
 			Pitná voda zdarma pro každého<br />
-			Doprovodný program pro děti i dospělé<br />
+			Doprovodný program pro děti i dospělé<br /><br />
 			</div>
-			<div class="col-sm-5"><b>Pro prodejce</b><br /><br />
+			<div class="col-sm-4 col-xs-offset-1"><b>Pro prodejce</b><br /><br />
 			Přívod elektřiny a sdílená 55m<sup>2</sup> chladírna na suroviny<br />
 			Představení na Facebooku a v IFF novinách<br />
 			Navážení a příprava s předstihem<br />
-			Pomoc prodejcům bez festivalových zkušeností<br />
-			<div class="col-sm-1"></div>
+			Pomoc prodejcům bez festivalových zkušeností<br /><br />
+			<!--<div class="col-sm-1"></div>-->
 			</div>
 			
 	
