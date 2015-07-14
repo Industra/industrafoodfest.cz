@@ -595,4 +595,6 @@ body {
     .navbar-default .nav > li>a.languageselect { text-align: left;  }
     img.actionlinks { height: 75px; margin: 0 auto; display: block; }	
 	
+    body, div { text-align: center; }
+  
 }
