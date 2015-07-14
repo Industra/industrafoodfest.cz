@@ -494,7 +494,14 @@ body {
     webkit-tap-highlight-color: #222;
 }
 @media(max-width:767px) {
-	img.plamenak, img.ananas, img.knife {
+    header {
+         height: 100%;
+	 background-size: 100% auto;
+	 background-repeat: no-repeat;
+    }
+  
+  
+        img.plamenak, img.ananas, img.knife {
 		display: none !important;
 	}
 	#registration img.event {
