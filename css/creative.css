@@ -245,7 +245,7 @@ img.knife {
 #contact #map-canvas a { font-size: 100% }
 
 #contact .row.address {
-	margin-top: 30px;
+	margin-top: 60px;
 	min-height: 520px;
 	position: relative;
 }
@@ -257,7 +257,7 @@ img.knife {
 	color: #FFF;
 	text-decoration: none;
 	font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 #contact .col-sm-5 {
 	position: relative;
@@ -297,14 +297,14 @@ margin-right: 10px;
 	text-align: left;
 	font-family: Helvetica, Arial, sans-serif;
 }
-#partners .col-sm-3 img {
+#partners .col-sm-3 img, #partners .col-sm-2 img {
 	width: 85%;
 	margin: 0 auto;
 	display: block;
 	padding-bottom: 20px;
 }
-#partners .col-sm-3 img.plakat {
-	width: 45%;
+#partners .col-sm-2 img.plakat {
+	width: 75%;
 }
 #partners .col-sm-3 img.rovner {
 	width: 50%;
@@ -608,4 +608,8 @@ body {
 .nav-justified>li>a {
     margin-bottom: 0;
     text-align: center !important;
+}
+.row {
+	margin-right: 0;
+	margin-left: 0;
 }
