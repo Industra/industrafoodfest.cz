@@ -605,3 +605,7 @@ body {
     body, div { text-align: center; }
   
 }
+.nav-justified>li>a {
+    margin-bottom: 0;
+    text-align: center !important;
+}
