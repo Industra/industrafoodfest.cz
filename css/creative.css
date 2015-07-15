@@ -206,7 +206,7 @@ h2 {
 	text-decoration: none;
 }
 #registration .row {
-	margin-top: 8%;
+	margin-top: 10%;
 	position: relative;
   	z-index: 10;
 }
@@ -226,7 +226,7 @@ img.plamenak{
   -webkit-transform: rotate(-67deg);
   transform: rotate(-67deg);
   position: absolute;
-  top: -187%;
+  top: -217%;
   left: 35%;
   width: 25%;
   z-index: 2;
